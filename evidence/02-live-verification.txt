@@ -1,0 +1,47 @@
+- text: "[0:00:00.116] Script completed in scope global: script"
+- separator
+- text: Script execution history and recovery
+- link "available here":
+  - /url: sys_script_execution_history.do?sys_id=a224df2a87a013100fbae59e3fbb3509
+- table:
+  - rowgroup:
+    - row "Operation Table Row Count":
+      - columnheader "Operation"
+      - columnheader "Table"
+      - columnheader "Row Count"
+  - rowgroup:
+    - row "update u_ppc_financial 1":
+      - cell "update"
+      - cell "u_ppc_financial"
+      - cell "1":
+        - link "1":
+          - /url: sys_rollback_sequence_list.do?sysparm_query=context=ea24df2a87a013100fbae59e3fbb3507^target_class_name=u_ppc_financial^operation=update
+- separator
+- text: "*** Script: PASS fixture found"
+- text: "*** Script: PASS source edit invalidates advice"
+- text: "*** Script: PASS recalculation works"
+- text: "*** Script: PASS fixture restored"
+- text: "*** Script: PASS repeat review stable"
+- text: "*** Script: WORKFLOW VERIFICATION PASSED Project Financial Management"
+- text: "*** Script: SOURCE EXACT ProjectFinancePolicy"
+- text: "*** Script: SOURCE EXACT ProjectFinanceService"
+- text: "*** Script: MATCH PPC-F-012 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-003 REVIEW"
+- text: "*** Script: MATCH PPC-F-016 REVIEW"
+- text: "*** Script: MATCH PPC-F-007 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-004 REVIEW"
+- text: "*** Script: MATCH PPC-F-017 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-001 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-008 REVIEW"
+- text: "*** Script: MATCH PPC-F-013 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-010 REVIEW"
+- text: "*** Script: MATCH PPC-F-014 REVIEW"
+- text: "*** Script: MATCH PPC-F-005 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-018 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-009 REVIEW"
+- text: "*** Script: MATCH PPC-F-006 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-011 ON_TRACK"
+- text: "*** Script: MATCH PPC-F-002 REVIEW"
+- text: "*** Script: MATCH PPC-F-015 REVIEW"
+- text: "*** Script: VERIFICATION PASSED Project Financial Management 18/18 | independent project | synthetic data"
+- separator

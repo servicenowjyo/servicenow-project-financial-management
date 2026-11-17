@@ -1,0 +1,1 @@
+White-background LinkedIn infographic for project financial management, with colourful icons, a simplified JavaScript excerpt and verified developer-instance results. 18 synthetic assessments | 9 forecast overruns flagged | 17/17 local tests | 18/18 ServiceNow matches. GitHub: github.com/servicenowjyo. Custom implementation; synthetic data.

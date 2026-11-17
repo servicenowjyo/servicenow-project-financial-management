@@ -1,0 +1,11 @@
+Spot budget risk before the next review.
+
+Built and verified with ServiceNow + JavaScript.
+
+18 synthetic assessments | 9 forecast overruns flagged | 17/17 local tests | 18/18 ServiceNow matches.
+
+Custom implementation with editable records and persisted results. Synthetic data; developer-instance project.
+
+GitHub: https://github.com/servicenowjyo
+
+#ServiceNow #JavaScript #ProjectFinancialManagement

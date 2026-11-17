@@ -1,0 +1,51 @@
+{
+  "kind": "finance",
+  "slug": "project-financial-management",
+  "title": "Project Financial Management",
+  "policy": "ProjectFinancePolicy",
+  "service": "ProjectFinanceService",
+  "page": "u_project_financial_management",
+  "table": "u_ppc_financial",
+  "helpers": [
+    "_integer",
+    "_round"
+  ],
+  "fields": [
+    [
+      "u_budget_paise",
+      "budget paise",
+      "integer",
+      40
+    ],
+    [
+      "u_actual_paise",
+      "actual paise",
+      "integer",
+      40
+    ],
+    [
+      "u_etc_paise",
+      "etc paise",
+      "integer",
+      40
+    ],
+    [
+      "u_remaining_commitments_paise",
+      "remaining commitments paise",
+      "integer",
+      40
+    ],
+    [
+      "u_earned_value_paise",
+      "earned value paise",
+      "integer",
+      40
+    ],
+    [
+      "u_planned_value_paise",
+      "planned value paise",
+      "integer",
+      40
+    ]
+  ]
+}

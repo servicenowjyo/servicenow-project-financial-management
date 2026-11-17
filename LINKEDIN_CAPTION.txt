@@ -1,0 +1,11 @@
+Project Financial Management, built and verified in ServiceNow.
+
+Which project assessments are likely to finish over budget, and why?
+
+✅ 18/18 synthetic records matched local results
+✅ 17/17 JavaScript tests passed
+✅ Editable records, persisted advice and a working review button
+
+GitHub: https://github.com/servicenowjyo/servicenow-project-financial-management
+
+#ServiceNow #JavaScript #ServiceNowDeveloper #ProjectManagement

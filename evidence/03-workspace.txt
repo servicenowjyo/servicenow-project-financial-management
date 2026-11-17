@@ -1,0 +1,260 @@
+- region
+- region
+- banner:
+  - generic: SERVICENOWJYO / WORKING SERVICENOW APPLICATION
+  - heading "Project Financial Management" [level=1]
+  - paragraph: Independent working ServiceNow project
+  - generic: dev471657
+- main:
+  - navigation:
+    - link "Project Financial Management":
+      - /url: u_project_financial_management.do?sysparm_module=finance
+  - generic: "SYNTHETIC INDUSTRIAL PROJECT DATA · Fixed assessment: 17 Nov 2026 · Custom implementation; independent of licensed SPM modules"
+  - heading "Project Financial Management" [level=2]
+  - paragraph: Catch forecast overruns and explain cost performance before the next review.
+  - article:
+    - generic: Persisted assessments
+    - generic: "18"
+  - article:
+    - generic: Require attention
+    - generic: "9"
+  - article:
+    - generic: Ready / on track
+    - generic: "9"
+  - article:
+    - generic: Workflow
+    - strong: Edit → Save → Review
+    - generic: Results written back to the record
+  - heading "Live record results" [level=3]
+  - paragraph: Open a record to edit its source fields and run its Review button. Source edits invalidate old advice.
+  - table:
+    - rowgroup:
+      - row "Assessment / project Forecast at completion Budget minus forecast CPI SPI Review advice":
+        - columnheader "Assessment / project"
+        - columnheader "Forecast at completion"
+        - columnheader "Budget minus forecast"
+        - columnheader "CPI"
+        - columnheader "SPI"
+        - columnheader "Review advice"
+    - rowgroup:
+      - row "PPC-F-001 Packaging line upgrade / baseline INR 900,000.00 INR 100,000.00 1 1 ON_TRACK No review flags":
+        - cell "PPC-F-001 Packaging line upgrade / baseline":
+          - link "PPC-F-001":
+            - /url: u_ppc_financial.do?sys_id=46e25b6287a013100fbae59e3fbb35b4
+          - generic: Packaging line upgrade / baseline
+        - cell "INR 900,000.00"
+        - cell "INR 100,000.00"
+        - cell "1"
+        - cell "1"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-002 Warehouse automation / baseline INR 1,500,000.00 INR -250,000.00 0.7143 0.7143 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+        - cell "PPC-F-002 Warehouse automation / baseline":
+          - link "PPC-F-002":
+            - /url: u_ppc_financial.do?sys_id=cee25b6287a013100fbae59e3fbb35b5
+          - generic: Warehouse automation / baseline
+        - cell "INR 1,500,000.00"
+        - cell "INR -250,000.00"
+        - cell "0.7143"
+        - cell "0.7143"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+      - row "PPC-F-003 Energy metering rollout / baseline INR 1,575,000.00 INR -75,000.00 0.8421 0.8889 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+        - cell "PPC-F-003 Energy metering rollout / baseline":
+          - link "PPC-F-003":
+            - /url: u_ppc_financial.do?sys_id=0ae25b6287a013100fbae59e3fbb35b6
+          - generic: Energy metering rollout / baseline
+        - cell "INR 1,575,000.00"
+        - cell "INR -75,000.00"
+        - cell "0.8421"
+        - cell "0.8889"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+      - row "PPC-F-004 Quality traceability / baseline INR 2,012,500.00 INR -262,500.00 0.8182 0.9474 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY":
+        - cell "PPC-F-004 Quality traceability / baseline":
+          - link "PPC-F-004":
+            - /url: u_ppc_financial.do?sys_id=42e25b6287a013100fbae59e3fbb35b7
+          - generic: Quality traceability / baseline
+        - cell "INR 2,012,500.00"
+        - cell "INR -262,500.00"
+        - cell "0.8182"
+        - cell "0.9474"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY
+      - row "PPC-F-005 Supplier portal / baseline INR 1,700,000.00 INR 300,000.00 N/A N/A ON_TRACK No review flags":
+        - cell "PPC-F-005 Supplier portal / baseline":
+          - link "PPC-F-005":
+            - /url: u_ppc_financial.do?sys_id=8ae25b6287a013100fbae59e3fbb35b7
+          - generic: Supplier portal / baseline
+        - cell "INR 1,700,000.00"
+        - cell "INR 300,000.00"
+        - cell "N/A"
+        - cell "N/A"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-006 Plant network refresh / baseline INR 2,250,000.00 INR 0.00 0.9 0.9 ON_TRACK No review flags":
+        - cell "PPC-F-006 Plant network refresh / baseline":
+          - link "PPC-F-006":
+            - /url: u_ppc_financial.do?sys_id=c2e25b6287a013100fbae59e3fbb35b8
+          - generic: Plant network refresh / baseline
+        - cell "INR 2,250,000.00"
+        - cell "INR 0.00"
+        - cell "0.9"
+        - cell "0.9"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-007 Packaging line upgrade / reforecast INR 900,000.00 INR 100,000.00 1 1 ON_TRACK No review flags":
+        - cell "PPC-F-007 Packaging line upgrade / reforecast":
+          - link "PPC-F-007":
+            - /url: u_ppc_financial.do?sys_id=0ee25b6287a013100fbae59e3fbb35b8
+          - generic: Packaging line upgrade / reforecast
+        - cell "INR 900,000.00"
+        - cell "INR 100,000.00"
+        - cell "1"
+        - cell "1"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-008 Warehouse automation / reforecast INR 1,500,000.00 INR -250,000.00 0.7143 0.7143 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+        - cell "PPC-F-008 Warehouse automation / reforecast":
+          - link "PPC-F-008":
+            - /url: u_ppc_financial.do?sys_id=46e25b6287a013100fbae59e3fbb35b9
+          - generic: Warehouse automation / reforecast
+        - cell "INR 1,500,000.00"
+        - cell "INR -250,000.00"
+        - cell "0.7143"
+        - cell "0.7143"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+      - row "PPC-F-009 Energy metering rollout / reforecast INR 1,575,000.00 INR -75,000.00 0.8421 0.8889 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+        - cell "PPC-F-009 Energy metering rollout / reforecast":
+          - link "PPC-F-009":
+            - /url: u_ppc_financial.do?sys_id=8ee25b6287a013100fbae59e3fbb35b9
+          - generic: Energy metering rollout / reforecast
+        - cell "INR 1,575,000.00"
+        - cell "INR -75,000.00"
+        - cell "0.8421"
+        - cell "0.8889"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+      - row "PPC-F-010 Quality traceability / reforecast INR 2,012,500.00 INR -262,500.00 0.8182 0.9474 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY":
+        - cell "PPC-F-010 Quality traceability / reforecast":
+          - link "PPC-F-010":
+            - /url: u_ppc_financial.do?sys_id=82e25ba687a013100fbae59e3fbb35a6
+          - generic: Quality traceability / reforecast
+        - cell "INR 2,012,500.00"
+        - cell "INR -262,500.00"
+        - cell "0.8182"
+        - cell "0.9474"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY
+      - row "PPC-F-011 Supplier portal / reforecast INR 1,700,000.00 INR 300,000.00 N/A N/A ON_TRACK No review flags":
+        - cell "PPC-F-011 Supplier portal / reforecast":
+          - link "PPC-F-011":
+            - /url: u_ppc_financial.do?sys_id=cae25ba687a013100fbae59e3fbb35a6
+          - generic: Supplier portal / reforecast
+        - cell "INR 1,700,000.00"
+        - cell "INR 300,000.00"
+        - cell "N/A"
+        - cell "N/A"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-012 Plant network refresh / reforecast INR 2,250,000.00 INR 0.00 0.9 0.9 ON_TRACK No review flags":
+        - cell "PPC-F-012 Plant network refresh / reforecast":
+          - link "PPC-F-012":
+            - /url: u_ppc_financial.do?sys_id=06e25ba687a013100fbae59e3fbb35a7
+          - generic: Plant network refresh / reforecast
+        - cell "INR 2,250,000.00"
+        - cell "INR 0.00"
+        - cell "0.9"
+        - cell "0.9"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-013 Packaging line upgrade / close review INR 900,000.00 INR 100,000.00 1 1 ON_TRACK No review flags":
+        - cell "PPC-F-013 Packaging line upgrade / close review":
+          - link "PPC-F-013":
+            - /url: u_ppc_financial.do?sys_id=4ee25ba687a013100fbae59e3fbb35a7
+          - generic: Packaging line upgrade / close review
+        - cell "INR 900,000.00"
+        - cell "INR 100,000.00"
+        - cell "1"
+        - cell "1"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-014 Warehouse automation / close review INR 1,500,000.00 INR -250,000.00 0.7143 0.7143 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+        - cell "PPC-F-014 Warehouse automation / close review":
+          - link "PPC-F-014":
+            - /url: u_ppc_financial.do?sys_id=86e25ba687a013100fbae59e3fbb35a8
+          - generic: Warehouse automation / close review
+        - cell "INR 1,500,000.00"
+        - cell "INR -250,000.00"
+        - cell "0.7143"
+        - cell "0.7143"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+      - row "PPC-F-015 Energy metering rollout / close review INR 1,575,000.00 INR -75,000.00 0.8421 0.8889 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+        - cell "PPC-F-015 Energy metering rollout / close review":
+          - link "PPC-F-015":
+            - /url: u_ppc_financial.do?sys_id=cee25ba687a013100fbae59e3fbb35a8
+          - generic: Energy metering rollout / close review
+        - cell "INR 1,575,000.00"
+        - cell "INR -75,000.00"
+        - cell "0.8421"
+        - cell "0.8889"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+      - row "PPC-F-016 Quality traceability / close review INR 2,012,500.00 INR -262,500.00 0.8182 0.9474 REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY":
+        - cell "PPC-F-016 Quality traceability / close review":
+          - link "PPC-F-016":
+            - /url: u_ppc_financial.do?sys_id=0ae25ba687a013100fbae59e3fbb35a9
+          - generic: Quality traceability / close review
+        - cell "INR 2,012,500.00"
+        - cell "INR -262,500.00"
+        - cell "0.8182"
+        - cell "0.9474"
+        - cell "REVIEW REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY":
+          - generic: REVIEW
+          - generic: REVIEW_FORECAST_OVERRUN | REVIEW_ACTUAL_OVERRUN | REVIEW_COST_EFFICIENCY
+      - row "PPC-F-017 Supplier portal / close review INR 1,700,000.00 INR 300,000.00 N/A N/A ON_TRACK No review flags":
+        - cell "PPC-F-017 Supplier portal / close review":
+          - link "PPC-F-017":
+            - /url: u_ppc_financial.do?sys_id=42e25ba687a013100fbae59e3fbb35aa
+          - generic: Supplier portal / close review
+        - cell "INR 1,700,000.00"
+        - cell "INR 300,000.00"
+        - cell "N/A"
+        - cell "N/A"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+      - row "PPC-F-018 Plant network refresh / close review INR 2,250,000.00 INR 0.00 0.9 0.9 ON_TRACK No review flags":
+        - cell "PPC-F-018 Plant network refresh / close review":
+          - link "PPC-F-018":
+            - /url: u_ppc_financial.do?sys_id=8ae25ba687a013100fbae59e3fbb35aa
+          - generic: Plant network refresh / close review
+        - cell "INR 2,250,000.00"
+        - cell "INR 0.00"
+        - cell "0.9"
+        - cell "0.9"
+        - cell "ON_TRACK No review flags":
+          - generic: ON_TRACK
+          - generic: No review flags
+  - heading "How the control works" [level=3]
+  - paragraph: Forecast = actual + estimate to complete (ETC). Remaining commitments are already included in ETC. CPI = earned value / actual; SPI = earned value / planned value. N/A means a zero denominator. Assessments are separate snapshots; do not sum them as distinct projects.
+  - paragraph: Application components:1 project table · Dedicated JavaScript policy · Service layer · Form review actions · Stale-advice invalidation rules
+  - generic: Working developer-instance implementation · Synthetic inputs · Human decisions retained · github.com/servicenowjyo
+- status

@@ -1,0 +1,32 @@
+Create ONE polished, high-resolution LinkedIn infographic, portrait 4:5 (aim 1600 x 2000). White background, generous whitespace, rounded pastel cards, bold dark navy headings, elegant editorial typography, colourful dimensional icons, crisp readable typesetting. Design a recruiter-facing ServiceNow JavaScript portfolio graphic, not a software screenshot. No invented logos, people, testimonials or claims. Do not add numbers beyond specified copy. Make the GitHub profile URL prominent and spell it exactly. No QR codes. Each card's content should be visually grouped and not crowded. Include the supplied limitations legibly. Render code in monospaced text, exactly as supplied. Output one PNG.
+Use teal, sky blue, amber and a touch of coral. Hero illustration: a colourful budget ledger, coins and a forecast chart with a review magnifier. No axes or invented numeric chart labels.
+Top eyebrow: SERVICENOW + JAVASCRIPT
+Main title: PROJECT FINANCIAL MANAGEMENT
+Hook: Spot budget risk before the next review.
+Small subline: Built and verified in a ServiceNow developer instance
+Three-step flow with icons:
+Review cost inputs → Calculate forecast → Flag budget risk
+Technology line: Custom table • Script Includes • Review button • Business Rule
+Panel heading: VERIFIED RESULTS • SYNTHETIC DATA
+Four result tiles:
+18 | financial assessments
+9 | forecast overruns flagged
+17 / 17 | local JavaScript tests passed
+18 / 18 | ServiceNow results matched
+Small green badge: Working form button verified
+Example card heading: ONE ASSESSMENT • INR
+Budget: 1,250,000
+Actual + ETC: 875,000 + 625,000
+Forecast: 1,500,000
+Adverse variance: 250,000
+Small note: Remaining commitments are included in ETC.
+Code card heading: CORE JAVASCRIPT
+Code subline: Simplified excerpt • INR paise
+Code exactly:
+var eac = d.actual_paise + d.etc_paise;
+var variance = d.budget_paise - eac;
+if (variance < 0) actions.push('REVIEW_FORECAST_OVERRUN');
+Capability strip: Editable inputs • Persisted advice • Stale results cleared
+Footer prominent: GitHub: github.com/servicenowjyo
+Disclosure: Custom implementation • Synthetic data • No measured savings
+Hashtags: #ServiceNow  #JavaScript  #ProjectFinancialManagement

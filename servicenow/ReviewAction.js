@@ -1,0 +1,1 @@
+if(!gs.hasRole('admin'))throw 'Admin required';try{new ProjectFinanceService().review(current,'finance');gs.addInfoMessage('Review saved: '+current.getValue('u_advice'));}catch(e){gs.addErrorMessage('Review not saved: '+e.message);}action.setRedirectURL(current);

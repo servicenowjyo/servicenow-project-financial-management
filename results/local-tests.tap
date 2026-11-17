@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: finance: bottom-up forecast and variance match hand calculation
+ok 1 - finance: bottom-up forecast and variance match hand calculation
+  ---
+  duration_ms: 2.4449
+  type: 'test'
+  ...
+# Subtest: finance: remaining commitments are included once, not twice
+ok 2 - finance: remaining commitments are included once, not twice
+  ---
+  duration_ms: 0.1392
+  type: 'test'
+  ...
+# Subtest: finance: EVM indices and three independent flags
+ok 3 - finance: EVM indices and three independent flags
+  ---
+  duration_ms: 0.1291
+  type: 'test'
+  ...
+# Subtest: finance: exactly budget is not overrun
+ok 4 - finance: exactly budget is not overrun
+  ---
+  duration_ms: 0.1279
+  type: 'test'
+  ...
+# Subtest: finance: zero denominators produce null indices
+ok 5 - finance: zero denominators produce null indices
+  ---
+  duration_ms: 0.6573
+  type: 'test'
+  ...
+# Subtest: finance: exactly 0.9 index does not flag
+ok 6 - finance: exactly 0.9 index does not flag
+  ---
+  duration_ms: 0.2959
+  type: 'test'
+  ...
+# Subtest: finance: actual overrun is distinct
+ok 7 - finance: actual overrun is distinct
+  ---
+  duration_ms: 0.2802
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money -1
+ok 8 - finance: rejects invalid money -1
+  ---
+  duration_ms: 0.315
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money 0.5
+ok 9 - finance: rejects invalid money 0.5
+  ---
+  duration_ms: 0.1657
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money NaN
+ok 10 - finance: rejects invalid money NaN
+  ---
+  duration_ms: 0.1741
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money Infinity
+ok 11 - finance: rejects invalid money Infinity
+  ---
+  duration_ms: 0.0844
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money 100
+ok 12 - finance: rejects invalid money 100
+  ---
+  duration_ms: 0.1164
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money undefined
+ok 13 - finance: rejects invalid money undefined
+  ---
+  duration_ms: 0.0575
+  type: 'test'
+  ...
+# Subtest: finance: rejects invalid money 10000000000000
+ok 14 - finance: rejects invalid money 10000000000000
+  ---
+  duration_ms: 0.61
+  type: 'test'
+  ...
+# Subtest: finance: rejects commitments above ETC
+ok 15 - finance: rejects commitments above ETC
+  ---
+  duration_ms: 0.1136
+  type: 'test'
+  ...
+# Subtest: finance: rejects earned value above baseline
+ok 16 - finance: rejects earned value above baseline
+  ---
+  duration_ms: 0.1128
+  type: 'test'
+  ...
+# Subtest: deterministic policy leaves source unchanged
+ok 17 - deterministic policy leaves source unchanged
+  ---
+  duration_ms: 0.7039
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 184.0191

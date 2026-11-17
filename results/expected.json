@@ -1,0 +1,218 @@
+[
+  {
+    "id": "PPC-F-001",
+    "forecast_paise": 90000000,
+    "variance_at_completion_paise": 10000000,
+    "remaining_budget_paise": 60000000,
+    "cpi": 1,
+    "spi": 1,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-002",
+    "forecast_paise": 150000000,
+    "variance_at_completion_paise": -25000000,
+    "remaining_budget_paise": 37500000,
+    "cpi": 0.7143,
+    "spi": 0.7143,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_COST_EFFICIENCY",
+      "REVIEW_SCHEDULE_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-003",
+    "forecast_paise": 157500000,
+    "variance_at_completion_paise": -7500000,
+    "remaining_budget_paise": 7500000,
+    "cpi": 0.8421,
+    "spi": 0.8889,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_COST_EFFICIENCY",
+      "REVIEW_SCHEDULE_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-004",
+    "forecast_paise": 201250000,
+    "variance_at_completion_paise": -26250000,
+    "remaining_budget_paise": -17500000,
+    "cpi": 0.8182,
+    "spi": 0.9474,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_ACTUAL_OVERRUN",
+      "REVIEW_COST_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-005",
+    "forecast_paise": 170000000,
+    "variance_at_completion_paise": 30000000,
+    "remaining_budget_paise": 200000000,
+    "cpi": null,
+    "spi": null,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-006",
+    "forecast_paise": 225000000,
+    "variance_at_completion_paise": 0,
+    "remaining_budget_paise": 112500000,
+    "cpi": 0.9,
+    "spi": 0.9,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-007",
+    "forecast_paise": 90000000,
+    "variance_at_completion_paise": 10000000,
+    "remaining_budget_paise": 60000000,
+    "cpi": 1,
+    "spi": 1,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-008",
+    "forecast_paise": 150000000,
+    "variance_at_completion_paise": -25000000,
+    "remaining_budget_paise": 37500000,
+    "cpi": 0.7143,
+    "spi": 0.7143,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_COST_EFFICIENCY",
+      "REVIEW_SCHEDULE_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-009",
+    "forecast_paise": 157500000,
+    "variance_at_completion_paise": -7500000,
+    "remaining_budget_paise": 7500000,
+    "cpi": 0.8421,
+    "spi": 0.8889,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_COST_EFFICIENCY",
+      "REVIEW_SCHEDULE_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-010",
+    "forecast_paise": 201250000,
+    "variance_at_completion_paise": -26250000,
+    "remaining_budget_paise": -17500000,
+    "cpi": 0.8182,
+    "spi": 0.9474,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_ACTUAL_OVERRUN",
+      "REVIEW_COST_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-011",
+    "forecast_paise": 170000000,
+    "variance_at_completion_paise": 30000000,
+    "remaining_budget_paise": 200000000,
+    "cpi": null,
+    "spi": null,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-012",
+    "forecast_paise": 225000000,
+    "variance_at_completion_paise": 0,
+    "remaining_budget_paise": 112500000,
+    "cpi": 0.9,
+    "spi": 0.9,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-013",
+    "forecast_paise": 90000000,
+    "variance_at_completion_paise": 10000000,
+    "remaining_budget_paise": 60000000,
+    "cpi": 1,
+    "spi": 1,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-014",
+    "forecast_paise": 150000000,
+    "variance_at_completion_paise": -25000000,
+    "remaining_budget_paise": 37500000,
+    "cpi": 0.7143,
+    "spi": 0.7143,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_COST_EFFICIENCY",
+      "REVIEW_SCHEDULE_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-015",
+    "forecast_paise": 157500000,
+    "variance_at_completion_paise": -7500000,
+    "remaining_budget_paise": 7500000,
+    "cpi": 0.8421,
+    "spi": 0.8889,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_COST_EFFICIENCY",
+      "REVIEW_SCHEDULE_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-016",
+    "forecast_paise": 201250000,
+    "variance_at_completion_paise": -26250000,
+    "remaining_budget_paise": -17500000,
+    "cpi": 0.8182,
+    "spi": 0.9474,
+    "actions": [
+      "REVIEW_FORECAST_OVERRUN",
+      "REVIEW_ACTUAL_OVERRUN",
+      "REVIEW_COST_EFFICIENCY"
+    ],
+    "status": "REVIEW"
+  },
+  {
+    "id": "PPC-F-017",
+    "forecast_paise": 170000000,
+    "variance_at_completion_paise": 30000000,
+    "remaining_budget_paise": 200000000,
+    "cpi": null,
+    "spi": null,
+    "actions": [],
+    "status": "ON_TRACK"
+  },
+  {
+    "id": "PPC-F-018",
+    "forecast_paise": 225000000,
+    "variance_at_completion_paise": 0,
+    "remaining_budget_paise": 112500000,
+    "cpi": 0.9,
+    "spi": 0.9,
+    "actions": [],
+    "status": "ON_TRACK"
+  }
+]

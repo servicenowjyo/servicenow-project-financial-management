@@ -1,0 +1,78 @@
+- region
+- region
+- navigation "Secondary":
+  - link "Back":
+    - text: 
+    - generic: Back
+  - button "additional actions": 
+  - heading "Portfolio finance Warehouse automation / baseline" [level=1]:
+    - button "Portfolio finance Warehouse automation / baseline":
+      - generic: Portfolio finance
+      - generic: Warehouse automation / baseline
+    - text:  
+  - button "Manage Attachments": 
+  - button "Personalize Form":
+    - text: 
+    - generic: Personalize Form
+  - button "More options":
+    - text: 
+    - generic: More options
+  - text:   
+  - button "Update"
+  - button "Review finance"
+  - button "Delete"
+  - text: 
+- list:
+- region "Output messages":
+  - text: 
+  - generic: Info Message
+  - text: "Review saved: REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY"
+- button "Close Messages": 
+- region "Portfolio finance form section":
+  - note
+  - text: Record key
+  - textbox "Record key": PPC-F-002
+  - note
+  - text: Calculated results JSON
+  - textbox "Calculated results JSON": "{\"id\":\"PPC-F-002\",\"forecast_paise\":150000000,\"variance_at_completion_paise\":-25000000,\"remaining_budget_paise\":37500000,\"cpi\":0.7143,\"spi\":0.7143,\"actions\":[\"REVIEW_FORECAST_OVERRUN\",\"REVIEW_COST_EFFICIENCY\",\"REVIEW_SCHEDULE_EFFICIENCY\"],\"status\":\"REVIEW\"}"
+  - note
+  - text: Project / assessment
+  - textbox "Project / assessment": Warehouse automation / baseline
+  - note
+  - text: Last reviewed input JSON
+  - textbox "Last reviewed input JSON": "{\"id\":\"PPC-F-002\",\"budget_paise\":125000000,\"actual_paise\":87500000,\"etc_paise\":62500000,\"remaining_commitments_paise\":6250000,\"earned_value_paise\":62500000,\"planned_value_paise\":87500000}"
+  - note
+  - text: Project key
+  - textbox "Project key": PPC-P-002
+  - note
+  - text: Recommended review actions
+  - textbox "Recommended review actions": REVIEW_FORECAST_OVERRUN | REVIEW_COST_EFFICIENCY | REVIEW_SCHEDULE_EFFICIENCY
+  - note
+  - text: Last reviewed at
+  - text: 
+  - textbox "Last reviewed at": 2026-11-16 23:47:33
+  - note
+  - text: actual paise
+  - textbox "actual paise": 87,500,000
+  - note
+  - text: budget paise
+  - textbox "budget paise": 125,000,000
+  - note
+  - text: Review status
+  - textbox "Review status": REVIEW
+  - note
+  - text: remaining commitments paise
+  - textbox "remaining commitments paise": 6,250,000
+  - note
+  - text: earned value paise
+  - textbox "earned value paise": 62,500,000
+  - note
+  - text: etc paise
+  - textbox "etc paise": 62,500,000
+  - note
+  - text: planned value paise
+  - textbox "planned value paise": 87,500,000
+- button "Update"
+- button "Review finance"
+- button "Delete"
+- text:                                                   

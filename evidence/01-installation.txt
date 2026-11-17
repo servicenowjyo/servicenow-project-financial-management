@@ -1,0 +1,76 @@
+- text: "[0:00:01.189] Script completed in scope global: script"
+- separator
+- text: Script execution history and recovery
+- link "available here":
+  - /url: sys_script_execution_history.do?sys_id=5024132a87a013100fbae59e3fbb3530
+- table:
+  - rowgroup:
+    - row "Operation Table Row Count":
+      - columnheader "Operation"
+      - columnheader "Table"
+      - columnheader "Row Count"
+  - rowgroup:
+    - row "update u_ppc_financial 18":
+      - cell "update"
+      - cell "u_ppc_financial"
+      - cell "18":
+        - link "18":
+          - /url: sys_rollback_sequence_list.do?sysparm_query=context=9824132a87a013100fbae59e3fbb352f^target_class_name=u_ppc_financial^operation=update
+    - row "insert sys_update_version 5":
+      - cell "insert"
+      - cell "sys_update_version"
+      - cell "5":
+        - link "5":
+          - /url: sys_rollback_sequence_list.do?sysparm_query=context=9824132a87a013100fbae59e3fbb352f^target_class_name=sys_update_version^operation=insert
+    - row "insert sys_metadata_customization 3":
+      - cell "insert"
+      - cell "sys_metadata_customization"
+      - cell "3":
+        - link "3":
+          - /url: sys_rollback_sequence_list.do?sysparm_query=context=9824132a87a013100fbae59e3fbb352f^target_class_name=sys_metadata_customization^operation=insert
+    - row "insert sys_update_xml 3":
+      - cell "insert"
+      - cell "sys_update_xml"
+      - cell "3":
+        - link "3":
+          - /url: sys_rollback_sequence_list.do?sysparm_query=context=9824132a87a013100fbae59e3fbb352f^target_class_name=sys_update_xml^operation=insert
+    - row "update sys_update_version 2":
+      - cell "update"
+      - cell "sys_update_version"
+      - cell "2":
+        - link "2":
+          - /url: sys_rollback_sequence_list.do?sysparm_query=context=9824132a87a013100fbae59e3fbb352f^target_class_name=sys_update_version^operation=update
+- text: ...and another 6 affected table(s)
+- link "View full summary here":
+  - /url: sys_script_execution_history.do?sys_id=5024132a87a013100fbae59e3fbb3530
+- separator
+- text: "*** Script: SCHEMA READY u_ppc_financial"
+- text: "[CacheFlushLog] event=sys_script_include, count=1, ms=0: Flushing catalog sys_script_include"
+- text: Loaded the Script Includes cache in 189 ms (loaded=true, size=5324)
+- text: "[CacheFlushLog] event=sys_metadata_customization, count=1, ms=205: Flushing catalog sys_metadata_customization"
+- text: Loaded the Script Includes cache in 39 ms (loaded=true, size=5325)
+- text: "[CacheFlushLog] event=metacache_system_wide, count=1, ms=163: Flushing catalog metacache_system_wide"
+- text: "[CacheFlushLog] event=syscache_tabledescriptor, count=1, ms=2: Flushing catalog syscache_tabledescriptor"
+- text: "[CacheFlushLog] event=syscache_sizeclass, count=1, ms=1: Flushing catalog syscache_sizeclass"
+- text: "[CacheFlushLog] event=dbi_table_exists, count=1, ms=2: Flushing catalog dbi_table_exists"
+- text: "[CacheFlushLog] event=DBNamesChecker, count=1, ms=1: Flushing catalog DBNamesChecker"
+- text: "[CacheFlushLog] event=DBViewNamesChecker, count=1, ms=1: Flushing catalog DBViewNamesChecker"
+- text: "[CacheFlushLog] event=DBNamesChecker_KnownMissing, count=1, ms=0: Flushing catalog DBNamesChecker_KnownMissing"
+- text: "Altering storage table [sh$sys_ui_action]: ALTER TABLE sh$sys_ui_action ADD `sh$context` VARCHAR(32), ADD `sh$operation` VARCHAR(40), ADD `sh$change_count` INTEGER, ADD `sh$first_recorded` DATETIME, ADD `sh$last_recorded` DATETIME, ADD `sh$sequence` VARCHAR(40), ADD `sh$first_txn_id` VARCHAR(32), ADD INDEX `vacwrhqp_source_primary`(`sys_id`)"
+- text: "[CacheFlushLog] event=column_metadata_cache, count=1, ms=241: Flushing catalog column_metadata_cache"
+- text: "[CacheFlushLog] event=syscache_storagemetadata, count=1, ms=2: Flushing catalog syscache_storagemetadata"
+- text: "*** Script: Begin ResourceSupport.buildTableResources(sh$sys_ui_action, undefined)"
+- text: "*** Script: End ResourceSupport.buildTableResources"
+- text: Pausing Tiered Cache serialization for all journals.
+- text: Normal Journal flush threshold is 90%. It is currently at 0.00%
+- text: Cache flush threshold not met. Skipping journal flush
+- text: "Resuming Tiered Cache serialization for all journals. Total Unserialized Cacheables during pause: 0"
+- text: "SysCacheRealFormFlush: msg=\"SYSCACHE_REALFORM cache flushed\", source=table_pair, source_table=sys_ui_action, user=admin"
+- text: "[CacheFlushLog] event=sys_ui_action, count=1, ms=108: Flushing catalog sys_ui_action"
+- text: "[CacheFlushLog] event=sys_script, count=1, ms=146: Flushing catalog sys_script"
+- text: "*** Script: INDEPENDENT LOGIC INSTALLED Project Financial Management"
+- text: "*** Script: INSERTED 0"
+- text: "*** Script: REVIEWED {\"finance\":18}"
+- text: "[CacheFlushLog] event=sys_ui_page, count=1, ms=171: Flushing catalog sys_ui_page"
+- text: "*** Script: WORKSPACE READY /u_project_financial_management.do"
+- separator
